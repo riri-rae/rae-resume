@@ -52,6 +52,25 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  overflow-y: scroll;
+}
+
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+}
+
+
 /**
  * Add the correct display in IE 9-.
  */
